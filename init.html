@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<style>
+		    
+		</style>
+		<script src="js/plugin/pluginOrm.js"></script>
+		<script src="js/model/BaseEntity.js"></script>
+		<script src="js/model/ReceivedList.js"></script>
+		<script src="js/model/ScanList.js"></script>
+		<script src="js/model/ScanSubmitHistory.js"></script>
+		<script src="js/common/pageControl.js"></script>
+		<script>
+			function eminReady() {
+			    // 数据库相关初始化
+                if(!localStorage.dbInit) {
+                    initDb();
+                }
+                
+                // 登录检查
+                console.log('===localStorage.isLogin:' + localStorage.isLogin);
+                console.log('===localStorage.infoIsUpdated:' + localStorage.infoIsUpdated);
+                pager.toIndexPage();
+                /*if(localStorage.isLogin == 'true') {
+                    // 未完善个人信息则跳到完善个人信息界面
+                    if(localStorage.infoIsUpdated == 'true') {
+                        pager.toIndexPage();
+                    } else {
+                        pager.toUpdateInfoPage();
+                    }
+                } else {
+                    pager.toLoginPage();
+                }*/
+			}
+			
+			function initDb() {
+				console.log('==== init database..');
+				// 数据库创建
+				EminBridge.orm.createDatabase('meris.db');
+				
+				// 表创建
+				EminBridge.orm.createTable(new ReceivedList());
+				EminBridge.orm.createTable(new ScanList());
+				EminBridge.orm.createTable(new ScanSubmitHistory());
+				
+				// 基础表数据初始化
+				initDbData();
+				localStorage.dbInit = true;
+			}
+			
+			function initDbData() {
+			}
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

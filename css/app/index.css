@@ -1,0 +1,132 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.indexContainer .page-content {
+    margin: 16px;
+}
+
+.container {
+    border: 1px solid transparent;
+    border-radius: 10px 10px;
+    margin-bottom: 12px;
+    padding: 16px 10px 6px 10px;
+    background: no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+.statistics {
+    margin-top: 8px;
+    height: 17%;
+    background-image: url(../../image/index-bg1.png);
+    color: #fff;
+}
+
+.event {
+    position: relative;
+    margin-top: 5px;
+    height: 34%;
+    background-color: #F3F5F4;
+    color: #fff;
+}
+.event .bg-img {
+    position: absolute;
+    height: 120px;
+    width: 200px;
+    right: -23px;
+    background-image: url(../../image/index-bg2.png);
+    background-size: 100%  100%;
+}
+.event .below {
+    position: absolute;
+    width: 100%;
+    bottom: 8px;
+    color:#9C9C9C;
+}
+.event .below .action {
+    padding-top: 6px;
+    padding-right: 30px;
+    text-align: right;
+}
+.event .event-name {
+    color: #444444;
+}
+.volunteer {
+    margin-top: 5px;
+    height: 20%;
+    background-image: url(../../image/index-bg3.png);
+    text-align: center;
+}
+.volunteer a {
+    display: inline-block;
+    height: 33px;
+    width: 147px;
+    margin-top: 45px;
+   
+    background-size: 100% 100%;
+}
+.volunteer a.application {
+    background-image: url(../../image/index-pic1.png);
+}
+.volunteer a.attestation {
+    background-image: url(../../image/index-pic2.png);
+}
+
+/*侧边栏 start*/
+.aside {
+    padding: 0 16px!important;
+}
+.aside .above {
+    height: 33%;
+    text-align: center;
+    border-bottom: 1px solid #D7D8D8;
+}
+.aside .above img {
+    margin-top: 24px;
+    height: 80px;
+    width: 80px;
+}
+.aside .above .username {
+    font-weight: bold;
+}
+.aside .below {
+    height: 50%;
+    border-bottom: 1px solid #D7D8D8; 
+    overflow:hidden
+}
+.aside .below  p{
+    padding: 8px 0px 8px 36px;
+    background-position: 0 10px;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    color: #999999;
+}
+.aside .below .go-personal{
+    margin-top: 24px;
+    background-image: url(../../image/icon-user.png);
+}
+.aside .below .go-message{
+    background-image: url(../../image/icon-bell.png);
+}
+.aside .below .go-activity{
+    background-image: url(../../image/icon-flag.png);
+}
+.aside .below .go-set{
+    background-image: url(../../image/icon-set.png);
+}
+.aside .footer {
+    height: 15%;
+    overflow: hidden;
+}
+.exit {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 3px 5px 3px 36px;
+    background-position: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-image: url(../../image/icon-logout.png);
+}
+
+/*侧边栏 end*/

@@ -1,0 +1,79 @@
+h4,p {
+    margin:0;
+    padding:0;
+}
+.bg-img {
+    height: 35%;
+    background-image: url(../../image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.personal-msg {
+    height:70px;
+}
+.photo {
+   height: 70px;
+   width: 100px; 
+}
+.photo img{
+    height: 100px;
+    width: 100px;
+}
+.photo {
+    position: relative;
+    width: 40%;
+}
+.photo img{
+    position: absolute;
+    top: -40px;
+    left: 16px;
+}
+.left .username {
+    margin:8px 0;
+}
+.user-star  .star{
+    margin-left: 10px;
+}
+.user-star  i {
+    font-size: 20px;
+    color: #67C262;
+}
+.introduce {
+    margin: 16px 16px 60px 16px;
+}
+.edit {
+    text-align: right;
+}
+.edit span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url(../../image/edit.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.toolbar span {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    line-height: 48px;
+}
+.go-accountMsg {
+    background: #C9D3DF!important;
+}
+.introduce-page, .introduce-page .introduceContainer{
+    height: 100%;
+}
+.introduce-page .content-block{
+    height: 30%;
+}
+.introduce-page .content-block-form {
+    height: 72%;
+}
+.introduce-page form {
+    height: 100%;
+}
+textarea.introduce {
+    height: 100%;
+}

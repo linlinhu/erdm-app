@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="theme-color" content="#2196f3">
+        <title>应急资源动态管理APP</title>
+        <link rel="stylesheet" href="../libs/css/framework7.material.css">
+        <link rel="stylesheet" href="../libs/css/framework7.material.colors.css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="../libs/css/material-icons.css">
+        <link rel="stylesheet" href="../libs/css/kitchen-sink.css">
+
+        <!--自定义-->
+        <link rel="stylesheet" href="../css/app/public.css">
+        <link rel="stylesheet" href="../css/app/task.css">
+
+        <link rel="icon" href="../libs/img/icon.png">
+    </head>
+
+    <body>
+        <div class="views">
+            <div class="view view-main">
+                <div class="pages navbar-fixed">
+                    <div data-page="task" class="page">
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="left">
+                                    <a class="icon-back link icon-only"></a>
+                                </div>
+                                <div class="title center">任务详情</div>
+
+                            </div>
+                        </div>
+                        <div class="page-content taskContainer">
+                            <div class="volunteerContainer">
+                                <div class="taskMsg">
+                                    <p class="font_l title">某某某大楼坍塌轻伤群众医疗支援</p>
+                                    <p class="bg-img clock">2018-02-08 15:00 <span>开始</span></p>
+                                    <p class="bg-img clock">2018-02-08 19:00 <span>结束</span></p>
+                                    <p class="bg-img location">高新区某某某大楼</p>
+                                    <p class="bg-img detail">高新区医疗志愿者服务队</p>
+                                    <p class="bg-img grade"><span class="bg-warning">1级</span></p>
+                                </div>
+                                <div class="volunteer">
+                                    <p class="buttons-row">
+                                        <a class="button btn-radius button-fill bg-cancel refuse">不参加本次任务</a>
+                                        <a class="button btn-radius button-fill bg-color accept">接受任务</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="visitorContainer hide">
+                                <div class="task-list">
+                                    <div class="item">
+                                        <h4>某某某大楼坍塌轻伤群众医疗支援</h4>
+                                        <p>参与组织：高新区医疗志愿者服务队</p>
+                                    </div>
+                                    <div class="item">
+                                        <h4>某某某大楼坍塌轻伤群众医疗支援</h4>
+                                        <p>参与组织：高新区医疗志愿者服务队</p>
+                                    </div>
+                                    <div class="item">
+                                        <h4>某某某大楼坍塌轻伤群众医疗支援</h4>
+                                        <p>参与组织：高新区医疗志愿者服务队</p>
+                                    </div>
+                                    <div class="item">
+                                        <h4>某某某大楼坍塌轻伤群众医疗支援</h4>
+                                        <p>参与组织：高新区医疗志愿者服务队</p>
+                                    </div>
+                                    <div class="item">
+                                        <h4>某某某大楼坍塌轻伤群众医疗支援</h4>
+                                        <p>参与组织：高新区医疗志愿者服务队</p>
+                                    </div>
+                                    <div class="item">
+                                        <h4>某某某大楼坍塌轻伤群众医疗支援</h4>
+                                        <p>参与组织：高新区医疗志愿者服务队</p>
+                                    </div>
+                                </div>
+                                <div class="application">
+                                    <a class="button btn-radius button-fill bg-color font_s">
+                                                                            申请成为志愿者<br/>参与以后的活动                            
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="eventMsg-container">
+                               <span class="bg"></span>
+                               <div class="eventMsg">
+                                <p class="font_l title">高新区某某某大楼坍塌</p>
+                                <p>发生时间：2018-02-08 15:00</p>
+                                <p>事件性质：<span>社会灾害</span></p>
+                                <p>2018-02-08 15:00,高新区某某某大楼突然坍塌，导致周围人群不同程度的受伤，继续救治。2018-02-08 15:00,高新区某某某大楼突然坍塌，导致周围人群不同程度的受伤，继续救治。2018-02-08 15:00,高新区某某某大楼突然坍塌，导致周围人群不同程度的受伤，继续救治。</p>
+                            </div> 
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../libs/js/framework7.js"></script>
+        <script src="../js/app/helper.js"></script>
+        <script src="../libs/js/kitchen-sink.js"></script>
+        <script src="../js/plugin/pluginWebview.js"></script>
+        <script src="../js/plugin/pluginOkHttpRequest.js"></script>
+        <script src="../js/common/serviceConfig.js"></script>
+        <script src="../libs/md5.js"></script>
+        <script src="../js/common/pageControl.js"></script>
+        <script src="../js/app/public.js"></script>
+        <script src="../js/app/task.js"></script>
+    </body>
+
+</html>

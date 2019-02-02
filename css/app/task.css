@@ -1,0 +1,112 @@
+p {
+    min-height: 24px;
+    line-height: 24px;
+}
+.taskContainer {
+    height: 100%;
+}
+.taskContainer div {
+    margin:5px 16px;
+}
+.taskContainer .taskMsg {
+    padding-top: 16px;
+}
+.taskContainer .taskMsg .title{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.taskContainer .taskMsg p {
+    padding-bottom: 2px;
+    margin-bottom: 6px;
+    padding-left: 6px;
+}
+.taskContainer .taskMsg .bg-img {
+    padding-left: 26px;
+    background-position: 0 2px;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+}
+.taskContainer .taskMsg .clock {
+    position: relative;
+    background-image: url(../../image/icon-clock.png);
+}
+.taskContainer .taskMsg .clock span {
+    position: absolute;
+    right: 0;
+}
+.taskContainer .taskMsg .location {
+    background-image: url(../../image/icon-location.png);
+}
+.taskContainer .taskMsg .detail {
+    background-image: url(../../image/icon-detail.png);
+}
+.taskContainer .taskMsg .grade {
+    background-image: url(../../image/icon-grade.png);
+}
+.taskContainer .taskMsg .grade span {
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+.taskContainer .volunteer {
+    margin:30px;
+}
+
+.taskContainer .eventMsg {
+    padding:10px 16px;
+    overflow: auto;
+    height: 100%;
+    border:1px solid transparent;
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #BBB;
+    
+}
+.taskContainer .eventMsg-container {
+    margin: 0;
+    position:relative;
+    height: 30%;
+}
+.taskContainer .eventMsg-container .bg{
+    dispaly:inline-block;
+    position:absolute;
+    height: 70px;
+    width: 70px;
+    right: 16px;
+    top:0;
+    background-image: url(../../image/icon-event.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    z-index: -1;
+}
+
+.taskContainer .eventMsg .title {
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+.taskContainer .eventMsg p span {
+    padding: 3px 8px;
+    background: #207DD6;
+    color:#FFFFFF;
+    border-radius: 3px;
+}
+.taskContainer .task-list {
+    margin-top: 24px;
+    height: 35%;
+    overflow: auto;
+}
+.task-list .item {
+    padding-bottom:5px ;
+}
+.taskContainer .application {
+    margin:30px 90px;
+}
+.taskContainer .application a {
+    padding-top: 6px;
+    height: 60px;
+    line-height: 24px;
+}
+
+

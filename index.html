@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="theme-color" content="#2196f3">
+        <title>应急资源动态管理APP</title>
+        <link rel="stylesheet" href="libs/css/framework7.material.css">
+        <link rel="stylesheet" href="libs/css/framework7.material.colors.css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="libs/css/material-icons.css">
+        <link rel="stylesheet" href="libs/css/kitchen-sink.css">
+
+        <!--自定义-->
+        <link rel="stylesheet" href="css/app/public.css">
+        <link rel="stylesheet" href="css/app/index.css">
+        <link rel="icon" href="libs/img/icon.png">
+    </head>
+
+    <body>
+        <div class="statusbar-overlay"></div>
+        <div class="panel-overlay"></div>
+        <div class="panel panel-left panel-cover">
+            <div class="view navbar-fixed">
+                <div class="pages">
+                    <div data-page="panel-left" class="page">
+                        <div class="page-content font_m aside">
+                            <div class="above">
+                                <img src="image/noPerson.png" /><br />
+                                <span class="username font_l"></span><br />
+                                <span class="mobile"></span>
+                            </div>
+                            <div class="below">
+                                <p class="go-personal">个人主页</p>
+                                <p class="go-message">活动通知</p>
+                                <p class="go-activity">志愿活动</p>
+                                <p class="go-set">设置</p>
+                            </div>
+                            <div class="footer">
+                                <a class="button btn-radius exit font_m">退出登录</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="views">
+            <div class="view view-main">
+                <div class="pages navbar-fixed">
+                    <div data-page="index" class="page indexContainer">
+
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="left">
+                                    <a href="#" class="open-panel link icon-only"><i class="material-icons">dehaze</i></a>
+                                </div>
+                                <div class="title center">志愿者新闻</div>
+                            </div>
+                        </div>
+                        <div class="page-content font_m">
+                            <div class="statistics container">
+                                <p>迄今为止，志愿者应急平台一共组织参与社会活动&nbsp;<span class="color-warning font_l eventCount">256</span>&nbsp;次</p>
+                                <p>共有&nbsp;<span class="color-Hlight font_l personCount">123256</span>&nbsp;位志愿者参与其中</p>
+                            </div>
+                            <div class="event container">
+                                <div class="bg-img"></div>
+                                <div class="below event-enter">
+                                    <p>当前&nbsp;<span class="color-warning font_l">高新区</span>&nbsp;有一个应急事件发生</p>
+                                    <p class="action">
+                                        <a>点击参与活动></a>
+                                    </p>
+                                </div>
+                                <div class="below record hide">
+                                    <p class="date">您于&nbsp;<span>2018-02-08</span>&nbsp;参加了</p>
+                                    <p class="event-name font_l">高新区某某大楼垮塌救援事件</p>
+                                    <p class="action">
+                                        <a>查看活动详情></a>
+                                    </p>
+                                </div>    
+                            </div>
+                            <div class="volunteer container">
+                                <a class="application"></a>
+                                <a class="attestation hide"></a>
+                            </div>      
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="libs/js/framework7.js"></script>
+        <script src="js/app/helper.js"></script>
+        <script src="libs/js/kitchen-sink.js"></script>
+        <script src="js/plugin/pluginOkHttpRequest.js"></script>
+        <script src="js/plugin/pluginWebview.js"></script>
+        <script src="js/plugin/pluginRuntime.js"></script>
+        <script src="js/common/serviceConfig.js"></script>
+        <script src="js/common/pageControl.js"></script>
+        <script src="js/app/public.js"></script>
+
+        <script src="js/app/index.js"></script>
+    </body>
+
+</html>

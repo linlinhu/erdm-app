@@ -1,0 +1,52 @@
+form.searchbar {
+    background: #fff;
+}
+form.searchbar input.keyword {
+    border-bottom-color: #E1E1E1;
+    color: #333333;
+    background-image: url(../../image/search.png);
+    background-size: 18px 18px;
+}
+
+form.searchbar input.keyword::-webkit-input-placeholder{
+    color:#8E8E93!important;
+    font-weight: normal!important;
+}
+form.searchbar .searchbar-clear{
+    background-image: url(../../image/cancel.png);
+    background-size: 18px 18px;
+}
+
+.searchContainer {
+    background: #F3F5F5;
+}
+.searchContainer .item {
+    margin:16px;
+    padding:10px;
+    padding-left: 65px;
+    background-color: #FFFFFF;
+    background-position: 10px 10px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px;
+}
+.searchContainer .dot {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.searchContainer .go-task {
+    text-align: right;
+}
+.searchContainer .go-task a {
+    color: #67C262;
+}
+.bell {
+   background-image: url(../../image/bell.png); 
+}
+.broadcast {
+   background-image: url(../../image/broadcast.png); 
+}
+mark {
+    background: #fff;
+}

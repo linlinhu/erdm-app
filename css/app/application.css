@@ -1,0 +1,139 @@
+body {
+    color: #555555;
+}
+.applicationContainer .item-inner {
+    color: #999999;
+}
+.applicationContainer select {
+    color: #999999;
+}
+.applicationContainer option {
+    color: #555555;
+}
+p {
+    padding:0;
+}
+input::-webkit-input-placeholder{
+    color: #999;opacity:0.3;
+}
+ul::before {
+    height: 0!important;
+}
+.applicationContainer  .content-block-title {
+    margin: 12px 16px 12px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.applicationContainer .item-content {
+    padding-left: 0;
+}
+.applicationContainer .item-media {
+    width: 25%;
+    padding-bottom: 12px!important;
+}
+.icon-form-radio {
+    width: 80%!important;
+ }
+.applicationContainer .item-input input,.applicationContainer .item-input select{
+  padding-bottom: 16px;  
+}
+.applicationContainer .item-content label {
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+}
+.applicationContainer .item-content label .item-media {
+    margin: 8px 0 0;
+}
+.applicationContainer .item-content label span{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+.required {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 10px;
+    top:-5px;
+    background-image: url(../../image/icon-asterisk.png);
+    background-repeat: no-repeat;
+    background-position: 3px,0px;
+    background-size: 10px 10px;
+}
+.tips {
+    font-weight: normal;
+}
+.short-list {
+    font-size: 16px;
+}
+.short-list select {
+    display: inline-block!important;
+    width: 31%!important;
+    padding-bottom: 16px!important;
+    text-align: center;
+    
+    border-bottom: 1px solid #F0F0F0!important;
+}
+.short-list select.hide {
+    display: none!important;
+}
+.short-list select:focus{  
+    border-bottom: 2px solid #2196f3!important;
+}
+.item-input select {
+    background-image: url(../../image/triangle.png);
+    background-position: right 8px;
+    background-repeat: no-repeat;
+    background-size: 15px 9px;
+}
+.ripple-wave {
+    display: none;
+}
+.step{
+    margin: 0 90px 0 90px;
+}
+/*knowledgeSkills start*/
+.sub-page .navbar .right {
+    top: 0;
+}
+.sub-page .navbar .right a{
+    font-size: 14px!important;
+    color: #444444!important; 
+    padding-right: 16px; 
+    padding-top: 16px;
+}
+.sub-page h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+.sub-page p {
+    text-align: center;
+}
+.sub-page .main {
+    margin: 16px;
+}
+.sub-page .main .cell {
+    display: inline-block;
+    padding: 2px 10px;
+    margin: 5px;
+    color: #639ECB;
+    border: 1px solid #639ECB;
+   border-radius: 3px 3px;
+}
+.sub-page .main .chosen {
+    background: #639ECB;
+    color: #FFFFFF;
+}
+a.prev {
+    color: #999999;
+}
+.posi-bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+/*knowledgeSkills end*/

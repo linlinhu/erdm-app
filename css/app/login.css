@@ -1,0 +1,26 @@
+#loginForm {
+	border:1px solid #fff;
+    margin:32px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #BBB;
+}
+#loginForm .content-block {
+    margin: 28px 20px;
+}
+#loginForm  .pic {
+    height:120px;
+    text-align: center;
+}
+.loginPage .content-block-title {
+    position: fixed;
+    bottom: 20px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.forgetPassword {
+    margin-left: 16px;
+}
+#loginForm ul::before {
+    height: 0;
+}

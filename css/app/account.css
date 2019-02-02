@@ -1,0 +1,15 @@
+body {
+    color: #555555;
+}
+.accountContainer .item-inner {
+    color: #999999;
+}
+.accountContainer .item-title {
+    height: 24px!important;
+}
+.accountContainer .item-link {
+    padding-left: 0;
+}
+.accountContainer .item-link .item-media {
+    width: 25%;
+}

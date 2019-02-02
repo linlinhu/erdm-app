@@ -1,0 +1,132 @@
+<div data-page="userMsg" class="page userMsg-page sub-page">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                
+            </div>
+            <div class="title center">个人信息</div>
+            <div class="right">
+                <a class="cancel">取消</a>
+            </div>
+        </div>
+    </div>
+    <div class="page-content userMsgContainer">
+        <div class="content-block-title font_l">基础信息</div>
+        <form class="list-block inputs-list">
+            <ul class="font_m">
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">真实姓名<span class="required"></span></div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <input type="text" name="realName" placeholder="真实姓名" value="winnie" />
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">性别<span class="required"></span></div>
+                        <div class="item-inner">
+                            <label class="label-radio item-content">
+                                                    <input type="radio" name="gender" value="0"/>
+                                                    <div class="item-media"><i class="icon icon-form-radio"></i><span>男</span></div>
+                                                </label>
+                            <label class="label-radio item-content">
+                                                    <input type="radio" name="gender" value="1" checked="checked"/>
+                                                    <div class="item-media"><i class="icon icon-form-radio"></i><span>女</span></div>
+                                                </label>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">民族<span class="required"></span></div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <select name="nation">
+                                    <option value='1'>汉族</option>
+                                    <option value='2'>满族</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">身份证号<span class="required"></span></div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <input type="text" name="idnumber" placeholder="身份证号" value="340824199208095007" />
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">所属区域<span class="required"></span></div>
+                        <div class="item-inner">
+                            <div class="short-list">
+                                <select name="province">
+                                    <option value="" disabled selected>请选择</option>
+                                    <option value="1">四川省</option>
+                                </select>
+                                <select class="hide" name="city">
+                                    <option value="" disabled selected>请选择</option>
+                                </select>
+                                <select class="hide" name="district">
+                                    <option value="" disabled selected>请选择</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">详细地址</div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <input type="text" name="endPointAddress" placeholder="详细地址" value="ocgB座" />
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="content-block-title font_l">学历及职业信息</div>
+            <ul class="font_m">
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">学历</div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <div class="item-input">
+                                    <select name="education">
+                                        <option value="" disabled selected>请选择</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media">职业</div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <select name="jobTitle">
+                                    <option value="" disabled selected>请选择</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </form>
+        <div class="content-block">
+            <p class="buttons-row  step">
+                <a class="button btn-radius button-fill bg-color submit" data-id="1">保存</a>
+            </p>
+        </div>
+    </div>
+
+</div>

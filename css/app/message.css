@@ -1,0 +1,30 @@
+.messageContainer {
+    background: #F3F5F5;
+}
+.messageContainer .item {
+    margin:16px;
+    padding:10px;
+    padding-left: 65px;
+    background-color: #FFFFFF;
+    background-position: 10px 10px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px;
+}
+.messageContainer .dot {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.messageContainer .go-task {
+    text-align: right;
+}
+.messageContainer .go-task a {
+    color: #67C262;
+}
+.bell {
+   background-image: url(../../image/bell.png); 
+}
+.broadcast {
+   background-image: url(../../image/broadcast.png); 
+}

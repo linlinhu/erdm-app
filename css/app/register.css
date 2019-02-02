@@ -1,0 +1,40 @@
+#registerForm {
+    border:1px solid #fff;
+    margin:20px 32px 20px 32px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #BBB;
+}
+.registerPage .content-block-title {
+    position: fixed;
+    bottom: 20px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.usernameContainer input {
+    float: left;
+    width: 110px!important;
+}
+.usernameContainer  a {
+    float: right;
+    width: 90px;
+}
+#registerForm  .pic {
+    height:120px;
+    text-align: center;
+}
+
+#registerForm  .content-block {
+    margin: 28px 20px;
+}
+#registerForm ul::before {
+    height: 0;
+}
+#registerForm .item-input-field::after {
+    height: 1px;
+    transform: scaleY(0.5);
+}
+#registerForm .item-input::after {
+    height: 1px;
+    transform: scaleY(0.5);
+}

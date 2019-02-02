@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="theme-color" content="#2196f3">
+        <title>应急资源动态管理APP</title>
+        <link rel="stylesheet" href="../libs/css/framework7.material.css">
+        <link rel="stylesheet" href="../libs/css/framework7.material.colors.css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="../libs/css/material-icons.css">
+        <link rel="stylesheet" href="../libs/css/kitchen-sink.css">
+
+        <!--自定义-->
+        <link rel="stylesheet" href="../css/app/public.css">
+        <link rel="stylesheet" href="../css/app/search.css">
+
+        <link rel="icon" href="../libs/img/icon.png">
+    </head>
+
+    <body>
+        <div class="views">
+            <div class="view view-main">
+                <div class="pages navbar-fixed">
+                    <div data-page="search" class="page">
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="left">
+                                    <a class="icon-back link icon-only"></a>
+                                </div>
+                                <form data-search-list=".search-here" data-search-in=".item-title" class="searchbar searchbar-init">
+                                    <div class="searchbar-input">
+                                        <input type="search" placeholder="关键字搜索..." name="keyword" class="keyword"/>
+                                        <a href="#" class="searchbar-clear"></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="page-content searchContainer">
+                            <div class="item broadcast">
+                                <h4>任务通知</h4>
+                                <p class="dot test">
+                                                                        有任务有任务有任务有任务有任务有任务有任务有任务有任务有任务有任务
+                                </p>
+                                <div class="go-task hide">
+                                    <a>任务详情></a>
+                                </div> 
+                            </div>
+                            <div class="item bell">
+                                <h4>事件消息</h4>
+                                <p class="dot test">有事件消息有事件消息？有任务有任？务有任务有任务有任<>务有任务有任务有任务有任务</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../libs/js/framework7.js"></script>
+        <script src="../js/app/helper.js"></script>
+        <script src="../libs/js/kitchen-sink.js"></script>
+        <script src="../js/plugin/pluginWebview.js"></script>
+        <script src="../js/plugin/pluginOkHttpRequest.js"></script>
+        <script src="../js/common/serviceConfig.js"></script>
+        <script src="../libs/md5.js"></script>
+        <script src="../js/common/pageControl.js"></script>
+        <script src="../js/app/public.js"></script>
+        <script src="../libs/js/jquery-2.1.1.min.js"></script>
+        <script src="../js/app/search.js"></script>
+    </body>
+
+</html>

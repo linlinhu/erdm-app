@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="theme-color" content="#2196f3">
+        <title>应急资源动态管理APP</title>
+        <link rel="stylesheet" href="../libs/css/framework7.material.css">
+        <link rel="stylesheet" href="../libs/css/framework7.material.colors.css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="../libs/css/material-icons.css">
+        <link rel="stylesheet" href="../libs/css/kitchen-sink.css">
+
+        <!--自定义-->
+        <link rel="stylesheet" href="../css/app/public.css">
+        <link rel="stylesheet" href="../css/app/personal.css">
+        <link rel="icon" href="../libs/img/icon.png">
+    </head>
+
+    <body>
+        <div class="panel panel-right panel-reveal">
+            <div class="view view-right">
+                <div class="pages navbar-fixed"></div>
+            </div>
+        </div>
+        <div class="views">
+            <div class="view view-main">
+                <div class="pages navbar-fixed">
+                    <div data-page="personal" class="page">
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="left">
+                                    <a class="icon-back link icon-only"></a>
+                                </div>
+                                <div class="title center">个人主页</div>
+                            </div>
+                        </div>
+                        <div class="page-content">
+                            <div class="bg-img"></div>
+                            <div class="personal-msg">
+                                <div class="photo left">
+                                    <img src="../image/noPerson.png" />
+                                </div>
+                                <div class="left">
+                                    <h4 class="username font_l"></h4>
+                                    <p class="user-star color-default">
+                                        <span class="left">志愿者认证</span>
+                                        <span class="star left font_s"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="introduce" class="font_m">
+                                <div class="introduceMsg">
+                                    <pre></pre> 
+                                    <p class="edit"><span></span></p>
+                                </div>
+                                
+                                <p class="add-introduceMsg hide">暂无内容，点击
+                                    <a class="add">添加</a>
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="toolbar toolbar-bottom">
+                            <span class="go-attestationMsg left">认证信息</span>
+                            <span class="go-accountMsg left">账户信息</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../libs/js/framework7.js"></script>
+        <script src="../js/app/helper.js"></script>
+        <script src="../libs/js/kitchen-sink.js"></script>
+        <script src="../js/plugin/pluginWebview.js"></script>
+        <script src="../js/plugin/pluginOkHttpRequest.js"></script>
+        <script src="../js/common/serviceConfig.js"></script>
+        <script src="../js/common/pageControl.js"></script>
+        
+        <script src="../js/app/personal.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="theme-color" content="#2196f3">
+        <title>应急资源动态管理APP</title>
+        <link rel="stylesheet" href="../libs/css/framework7.material.css">
+        <link rel="stylesheet" href="../libs/css/framework7.material.colors.css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="../libs/css/material-icons.css">
+        <link rel="stylesheet" href="../libs/css/kitchen-sink.css">
+
+        <!--自定义-->
+        <link rel="stylesheet" href="../css/app/public.css">
+        <link rel="stylesheet" href="../css/app/attestation.css">
+        <link rel="icon" href="../libs/img/icon.png">
+    </head>
+
+    <body>
+        <div class="panel panel-right panel-reveal">
+            <div class="view view-right">
+                <div class="pages navbar-fixed"></div>
+            </div>
+        </div>
+        <div class="views">
+            <div class="view view-main">
+                <div class="pages navbar-fixed">
+                    <div data-page="attestation" class="page attestation-page">
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="left">
+                                    <a class="icon-back link icon-only"></a>
+                                </div>
+                                <div class="title center">志愿者认证信息</div>
+                                <div class="right">
+                                    <a href="#" class="link icon-only edit"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="toolbar tabbar">
+                            <div class="toolbar-inner">
+                                <a href="#tab-1" class="tab-link tab-1 active"><span>个人信息</span></a>
+                                <a href="#tab-2" class="tab-link tab-2"><span>服务意向及知识技能</span></a>
+                            </div>
+                        </div>
+                        <div class="page-content attestationContainer">
+                            <div class="tabs">
+                                <div id="tab-1" class="tab active">
+                                    <div class="list-block media-list">
+                                        <ul class="font_m"> 
+                                            <li class="realName font_l"></li>
+                                            <li>
+                                                <a href="#" class="item-link item-content">
+                                                    <div class="item-media">学历</div>
+                                                    <div class="item-inner education"></div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="item-link item-content">
+                                                    <div class="item-media col-30">性别</div>
+                                                    <div class="item-inner gender"></div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="item-link item-content">
+                                                    <div class="item-media">民族</div>
+                                                    <div class="item-inner nation"></div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="item-link item-content">
+                                                    <div class="item-media">职业</div>
+                                                    <div class="item-inner jobTitle"></div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="item-link item-content">
+                                                    <div class="item-media">手机号码</div>
+                                                    <div class="item-inner mobile"></div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="item-link item-content" name="email">
+                                                    <div class="item-media">身份证号</div>
+                                                    <div class="item-inner idnumber"></div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="item-link item-content" name="email">
+                                                    <div class="item-media">所属区域</div>
+                                                    <div class="item-inner region"></div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="item-link item-content" name="email">
+                                                    <div class="item-media">通讯地址</div>
+                                                    <div class="item-inner endPointAddress"></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="tab-2" class="tab font_m">
+                                    <div class="item knowledgeSkills">
+                                        <p class="title">知识技能</p>
+                                        <div class="main">
+                                            <span class="cell">科学技术</span>
+                                            <span class="cell">行政管理</span>
+                                            <span class="cell">汽车驾驶</span>
+                                        </div>
+                                    </div>
+                                    <div class="item languageSkills">
+                                        <p class="title">语言能力</p>
+                                        <div class="main">
+                                            <span class="cell">科学技术</span>
+                                            <span class="cell">行政管理</span>
+                                            <span class="cell">汽车驾驶</span>
+                                        </div>
+                                    </div>
+                                    <div class="item serviceIntentions">
+                                        <p class="title">服务意向</p>
+                                        <div class="main">
+                                            <span class="cell">心理咨询</span>
+                                            <span class="cell">劝导</span>
+                                        </div>
+                                    </div>
+                                    <div class="item serviceTime">
+                                        <p class="title">服务时间</p>
+                                        <div class="main">
+                                            <span class="cell">平日晚间</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="item serviceFields">
+                                        <p class="title">服务领域行业</p>
+                                        <div class="main">
+                                            <span class="cell">文化志愿队</span>
+                                            <span class="cell">医疗志愿队</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../libs/js/framework7.js"></script>
+        <script src="../js/app/helper.js"></script>
+        <script src="../libs/js/kitchen-sink.js"></script>
+        <script src="../js/plugin/pluginWebview.js"></script>
+        <script src="../js/plugin/pluginOkHttpRequest.js"></script>
+        <script src="../js/common/serviceConfig.js"></script>
+        <script src="../js/common/pageControl.js"></script>
+        <script src="../js/app/public.js"></script>
+        <script src="../js/app/attestation.js"></script>
+        
+    </body>
+
+</html>
